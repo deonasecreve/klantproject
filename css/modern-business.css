@@ -1,0 +1,201 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #74AFAD;
+}
+
+
+
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+div.hoofdtext{
+    text-align: left;
+    padding-top: 110px;
+    font-size: 16px;
+    font-style: Georgia;
+
+}
+
+h1.welkom{
+    text-align: center;
+
+    
+
+
+}
+
+.geplandeduiken{
+    margin: 15px;
+    background-color: #FFFFFF;
+    text-align: left;
+    border-radius: 15px;
+    border: solid #777 1px;
+}
+
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+div.Clubblad{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+}
+
+img.koningsduik{
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+div.clubhuis{
+     margin: auto;
+    width: 60%;
+    padding: 20px;
+
+    
+}
+
+img.clubhuis1{
+    display: block;
+    margin-left: 200px;
+    margin-right: auto;
+    width: 400px;
+    padding: 10px;
+    display: inline;
+}
+
+img.clubhuis2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 10px;
+    display: inline;
+
+}
+
+div.tekstfeest{
+    float: left;
+}
+
+i.nieuwsbrief{
+    color: white;
+}
+
+img.logo{
+    float: right;
+    margin-left: 10px;
+}
+
+img.perslucht{
+    float: right;
+    width: 250px;
+    margin-left: 10px;
+}
+
+img.specialisatie{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+   
+
+
+
+
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
